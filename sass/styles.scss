@@ -1,0 +1,69 @@
+$cadetblue: #5f9ea0;
+$wheat: #f5deb3;
+$seagreen: #2e8b57;
+$salmon: #fa8072;
+
+
+
+.wrapper  {
+  height: 750px;
+  width: 75%;
+  margin: 0 auto;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.panel {
+   box-shadow:0 6px 6px -6px #000;
+   flex: 1 0;
+   height: 200px;
+   width: 200px;
+   border: 2px solid black;
+   margin:1vmin;
+   display: inline-block;
+   flex-basis: 20%;
+}
+
+// .panel:nth-child(1) {
+//   flex-basis: 400px;
+// }
+// .panel:nth-child(2) {
+// flex-basis: 100;
+// }
+// .panel:nth-child(3) {
+// flex-basis: 100px;
+// }
+// .panel:nth-child(4) {
+// flex-basis: 200px;
+// }
+// .panel:nth-child(5) {
+// flex-basis: 200px;
+// }
+// .panel:nth-child(6) {
+// flex-basis: 200px;
+// }
+// .panel:nth-child(7) {
+// flex-basis: 25%;
+// }
+// .panel:nth-child(8) {
+// flex-basis: 200px;
+// }
+// .panel:nth-child(9) {
+// flex-basis: 200px;
+// }
+
+
+.panel:nth-child(4n+1) {
+  background-color: $cadetblue;
+}
+.panel:nth-child(4n+2) {
+  background-color: $wheat;
+}
+.panel:nth-child(4n+3) {
+  background-color: $seagreen;
+}
+.panel:nth-child(4n+4) {
+  background-color: $salmon;
+}

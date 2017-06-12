@@ -1,0 +1,31 @@
+.wrapper {
+  height: 750px;
+  width: 75%;
+  margin: 0 auto;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap; }
+
+.panel {
+  box-shadow: 0 6px 6px -6px #000;
+  flex: 1 0;
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  margin: 1vmin;
+  display: inline-block;
+  flex-basis: 20%; }
+
+.panel:nth-child(4n+1) {
+  background-color: #5f9ea0; }
+
+.panel:nth-child(4n+2) {
+  background-color: #f5deb3; }
+
+.panel:nth-child(4n+3) {
+  background-color: #2e8b57; }
+
+.panel:nth-child(4n+4) {
+  background-color: #fa8072; }
+
+/*# sourceMappingURL=styles.css.map */
